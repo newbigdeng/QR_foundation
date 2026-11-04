@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="04 线性代数：怎样看出“重复的信息”" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>04 线性代数：怎样看出“重复的信息”｜知识图</title>
+<desc>本章主线：相关就是夹角，PCA 找风险主轴，回归残差把旧因子解释过的信息剥掉。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a06" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao06" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag06" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">04</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">线性代数：怎样看出“重复的信息”</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：相关就是夹角，PCA 找风险主轴，回归残差把旧因子解释过的信息剥掉。</text>
+<rect x="45" y="84" width="350" height="230" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.6" rx="14"/>
+<rect x="415" y="84" width="345" height="230" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.6" rx="14"/>
+<text x="60" y="105" font-size="11.5" fill="#1B3A5C" font-weight="bold">① 向量：内积 = 夹角</text>
+<text x="430" y="105" font-size="11.5" fill="#1B3A5C" font-weight="bold">② PCA：旋转坐标，找主轴</text>
+<path d="M 300 285 L 85 285" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag06)"/>
+<path d="M 300 285 L 300 285" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag06)"/>
+<path d="M 300 285 L 300 285" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag06)"/>
+<path d="M 300 285 L 300 128" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag06)"/>
+<path d="M 300 285 L 130 175" fill="none" stroke="#1B3A5C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a06)"/>
+<path d="M 300 285 L 205 225" fill="none" stroke="#1B3A5C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a06)"/>
+<text x="122" y="169" font-size="10.5" fill="#1B3A5C" text-anchor="end">因子 A</text>
+<text x="211" y="227" font-size="10.5" fill="#1B3A5C">因子 B</text>
+<line x1="205" y1="225" x2="205.7" y2="224" stroke="#6E7B8B" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="205.7" y1="224" x2="300" y2="285" stroke="#E07B39" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+<text x="209.3" y="220.5" font-size="9.5" fill="#6E7B8B">投影</text>
+<path d="M 256 257.2 A 52 52 0 0 0 256.3 256.8" fill="none" stroke="#E07B39" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="252" y="244" font-size="11" fill="#E07B39" font-weight="bold">θ</text>
+<text x="60" y="302" font-size="10.5" fill="#1B3A5C">cos θ = ρ：夹角越小，重复信息越多</text>
+<rect x="480" y="155" width="210" height="120" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.4" rx="4"/>
+<ellipse cx="585" cy="215" rx="108" ry="34" fill="#E6EFF7" stroke="#6E7B8B" stroke-width="1.2" stroke-dasharray="5 4" transform="rotate(-28 585 215)"/>
+<circle cx="515" cy="193" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="531" cy="203" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="545" cy="207" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="559" cy="221" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="571" cy="213" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="585" cy="217" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="597" cy="223" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="611" cy="211" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="623" cy="229" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="637" cy="219" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="649" cy="233" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="537" cy="233" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="565" cy="237" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="593" cy="239" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="619" cy="243" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="643" cy="245" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="523" cy="221" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="603" cy="199" r="2.6" fill="#1B3A5C" opacity="0.6"/>
+<path d="M 585 215 L 673.3 168.1" fill="none" stroke="#E07B39" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ao06)"/>
+<path d="M 585 215 L 603.8 250.3" fill="none" stroke="#1B3A5C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a06)"/>
+<text x="672.8" y="158.2" font-size="10.5" fill="#E07B39" font-weight="bold">PC1</text>
+<text x="629.8" y="208.3" font-size="10" fill="#1B3A5C">PC2</text>
+<text x="432" y="302" font-size="10.5" fill="#1B3A5C">PC1 方向：解释方差最大的一条轴</text>
+<rect x="60" y="330" width="200" height="44" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.3" rx="14"/>
+<text x="160" y="342.8" font-size="12" fill="#1B3A5C" text-anchor="middle">夹角 = 相关</text>
+<text x="160" y="358.8" font-size="9" fill="#6E7B8B" text-anchor="middle">内积 ÷ 长度乘积</text>
+<rect x="300" y="330" width="200" height="44" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.3" rx="14"/>
+<text x="400" y="342.8" font-size="12" fill="#1B3A5C" text-anchor="middle">PC1 = 风险主轴</text>
+<text x="400" y="358.8" font-size="9" fill="#6E7B8B" text-anchor="middle">特征向量 / 载荷</text>
+<rect x="540" y="330" width="200" height="44" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.3" rx="14"/>
+<text x="640" y="342.8" font-size="12" fill="#1B3A5C" text-anchor="middle">残差 = 正交化</text>
+<text x="640" y="358.8" font-size="9" fill="#6E7B8B" text-anchor="middle">剥掉旧因子的信息</text>
+<path d="M 260 352 L 300 352" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a06)"/>
+<path d="M 500 352 L 540 352" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a06)"/>
+</svg>

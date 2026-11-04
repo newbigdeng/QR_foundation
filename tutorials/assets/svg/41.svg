@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="41 复杂策略设计：多信号、状态机与执行" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>41 复杂策略设计：多信号、状态机与执行｜知识图</title>
+<desc>本章主线：信号只决定“想做什么”，状态机决定“允许做什么”，kill switch 最后兜底。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a41" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao41" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag41" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">41</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">复杂策略设计：多信号、状态机与执行</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：信号只决定“想做什么”，状态机决定“允许做什么”，kill switch 最后兜底。</text>
+<rect x="65" y="185" width="125" height="62" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="127.5" y="208.8" font-size="12.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">空仓 / 观察</text>
+<text x="127.5" y="227.3" font-size="8.8" fill="#6E7B8B" text-anchor="middle">等信号与风控</text>
+<rect x="265" y="95" width="130" height="62" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="330" y="118.8" font-size="12.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">信号确认</text>
+<text x="330" y="137.3" font-size="8.8" fill="#6E7B8B" text-anchor="middle">多信号投票</text>
+<rect x="505" y="95" width="130" height="62" fill="#1B3A5C" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="570" y="118.8" font-size="12.5" fill="#FFFFFF" text-anchor="middle" font-weight="bold">持仓</text>
+<text x="570" y="137.3" font-size="8.8" fill="#FFFFFF" text-anchor="middle">仓位与止损</text>
+<rect x="505" y="280" width="130" height="62" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="570" y="303.9" font-size="12.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">退出 / 冷却</text>
+<text x="570" y="322.3" font-size="8.8" fill="#6E7B8B" text-anchor="middle">平仓后不动</text>
+<rect x="665" y="186" width="95" height="56" fill="#FFFFFF" stroke="#E07B39" stroke-width="1.5" rx="14"/>
+<text x="712.5" y="206.5" font-size="10.5" fill="#E07B39" text-anchor="middle" font-weight="bold">Kill Switch</text>
+<text x="712.5" y="224.1" font-size="8.2" fill="#6E7B8B" text-anchor="middle">一键平仓</text>
+<path d="M 190 216 L 265 126" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a41)"/>
+<rect x="204.5" y="157" width="46" height="14" fill="#FFFFFF"/>
+<text x="227.5" y="166" font-size="10" fill="#6E7B8B" text-anchor="middle">信号触发</text>
+<path d="M 395 126 L 505 126" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a41)"/>
+<rect x="427" y="112" width="46" height="14" fill="#FFFFFF"/>
+<text x="450" y="121" font-size="10" fill="#6E7B8B" text-anchor="middle">风控通过</text>
+<path d="M 570 157 L 570 280" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a41)"/>
+<rect x="538.8" y="204.5" width="62.5" height="14" fill="#FFFFFF"/>
+<text x="570" y="213.5" font-size="10" fill="#6E7B8B" text-anchor="middle">止损 / 目标</text>
+<path d="M 505 311 L 190 216" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a41)"/>
+<rect x="324.5" y="249.5" width="46" height="14" fill="#FFFFFF"/>
+<text x="347.5" y="258.5" font-size="10" fill="#6E7B8B" text-anchor="middle">冷却结束</text>
+<path d="M 330 157 Q 240 205 150 185" fill="none" stroke="#6E7B8B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#ag41)"/>
+<rect x="223" y="197" width="46" height="14" fill="#FFFFFF"/>
+<text x="246" y="206" font-size="10" fill="#6E7B8B" text-anchor="middle">信号消失</text>
+<path d="M 665 210 Q 652 165 635 128" fill="none" stroke="#E07B39" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3" marker-end="url(#ao41)"/>
+<rect x="645" y="149" width="46" height="14" fill="#FFFFFF"/>
+<text x="668" y="158" font-size="10" fill="#6E7B8B" text-anchor="middle">一键平仓</text>
+<text x="65" y="372" font-size="9.6" fill="#6E7B8B">状态机规定“什么时候不允许交易”；kill switch 绕过策略逻辑，直接平仓</text>
+<text x="65" y="390" font-size="9.6" fill="#1B3A5C">回测里也要有状态：否则同一信号会被重复加仓</text>
+</svg>

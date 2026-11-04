@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="28 期权价差与组合套利：逐腿算账" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>28 期权价差与组合套利：逐腿算账｜知识图</title>
+<desc>本章主线：每个执行价都是斜率拐点；中间价加总的“套利”，要用逐腿 bid/ask 重新算。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a25" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao25" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag25" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">28</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">期权价差与组合套利：逐腿算账</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：每个执行价都是斜率拐点；中间价加总的“套利”，要用逐腿 bid/ask 重新算。</text>
+<rect x="45" y="82" width="400" height="250" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<text x="60" y="102" font-size="10.5" fill="#1B3A5C" font-weight="bold">① 垂直价差：到期损益</text>
+<path d="M 65 280 L 430 280" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag25)"/>
+<path d="M 65 280 L 65 280" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag25)"/>
+<text x="72" y="134" font-size="9" fill="#6E7B8B">P&amp;L</text>
+<text x="414" y="298" font-size="9" fill="#6E7B8B">S_T</text>
+<line x1="70" y1="240" x2="428" y2="240" stroke="#E6EFF7" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="215" y1="240" x2="215" y2="286" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="215" y="300" font-size="8.6" fill="#6E7B8B" text-anchor="middle">K1=100</text>
+<line x1="285" y1="240" x2="285" y2="286" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="285" y="300" font-size="8.6" fill="#6E7B8B" text-anchor="middle">K2=110</text>
+<path d="M 75 260 L 215 260 L 285 180 L 425 180" fill="none" stroke="#1B3A5C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="75" y1="260" x2="215" y2="260" stroke="#E07B39" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="150" y="254" font-size="8.8" fill="#E07B39">最大亏损 −2.5（净支出）</text>
+<line x1="285" y1="180" x2="425" y2="180" stroke="#1B3A5C" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="300" y="172" font-size="8.6" fill="#1B3A5C">最大盈利 +7.5 = K2 − K1 − 净支出</text>
+<text x="75" y="324" font-size="9" fill="#6E7B8B">净支出 2.5：到期损益 = 两腿支付 − 净支出</text>
+<rect x="465" y="82" width="290" height="250" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<text x="480" y="102" font-size="10.5" fill="#1B3A5C" font-weight="bold">② 逐腿组合（示例蝶式）</text>
+<rect x="480" y="112" width="122" height="50" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="541" y="129.4" font-size="10.2" fill="#1B3A5C" text-anchor="middle" font-weight="bold">买 K1 Call</text>
+<text x="541" y="147" font-size="8.2" fill="#6E7B8B" text-anchor="middle">权利金 6.0</text>
+<rect x="612" y="112" width="122" height="50" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="673" y="129.4" font-size="10.2" fill="#1B3A5C" text-anchor="middle" font-weight="bold">卖 K2 Call</text>
+<text x="673" y="147" font-size="8.2" fill="#6E7B8B" text-anchor="middle">权利金 3.0</text>
+<rect x="480" y="174" width="122" height="50" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="541" y="191.4" font-size="10.2" fill="#1B3A5C" text-anchor="middle" font-weight="bold">买 K3 Call</text>
+<text x="541" y="209" font-size="8.2" fill="#6E7B8B" text-anchor="middle">权利金 2.2</text>
+<rect x="612" y="174" width="122" height="50" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="673" y="191.4" font-size="10.2" fill="#1B3A5C" text-anchor="middle" font-weight="bold">卖 K4 Call</text>
+<text x="673" y="209" font-size="8.2" fill="#6E7B8B" text-anchor="middle">权利金 1.1</text>
+<rect x="480" y="250" width="254" height="56" fill="#1B3A5C" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="607" y="270.4" font-size="10.8" fill="#FFFFFF" text-anchor="middle" font-weight="bold">净支出与最大盈亏</text>
+<text x="607" y="288.4" font-size="8.6" fill="#FFFFFF" text-anchor="middle">逐腿 bid/ask 才算得准</text>
+<path d="M 541 162 L 607 250" fill="none" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#ag25)"/>
+<path d="M 673 162 L 607 250" fill="none" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#ag25)"/>
+<path d="M 541 224 L 607 250" fill="none" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#ag25)"/>
+<path d="M 673 224 L 607 250" fill="none" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#ag25)"/>
+<text x="480" y="320" font-size="8.8" fill="#E07B39">中间价净支出 2.5 → 逐腿 bid/ask 3.4</text>
+<text x="45" y="366" font-size="9.2" fill="#6E7B8B">蝶式：K1 &lt; K2 &lt; K3；箱式平价与凸性检查无套利</text>
+<text x="45" y="384" font-size="9.2" fill="#6E7B8B">实盘：一档报价 × 全部数量 = 高估可成交性</text>
+</svg>

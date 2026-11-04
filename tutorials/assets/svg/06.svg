@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="06 随机过程与伊藤引理：多出的半个方差" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>06 随机过程与伊藤引理：多出的半个方差｜知识图</title>
+<desc>本章主线：路径连续却不可导，二次变差累积成 T，伊藤修正正是那“半个方差”。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a08" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao08" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag08" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">06</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">随机过程与伊藤引理：多出的半个方差</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：路径连续却不可导，二次变差累积成 T，伊藤修正正是那“半个方差”。</text>
+<path d="M 65 300 L 450 300" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag08)"/>
+<path d="M 65 300 L 65 300" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag08)"/>
+<path d="M 65 300 L 65 300" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag08)"/>
+<path d="M 65 300 L 65 105" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag08)"/>
+<text x="78" y="118" font-size="9.5" fill="#6E7B8B">路径 W_t</text>
+<text x="438" y="318" font-size="9.5" fill="#6E7B8B">t</text>
+<path d="M 70 230.4 L 77.7 236.8 L 85.3 222.4 L 93 233.6 L 100.6 228.8 L 108.3 216 L 115.9 232 L 123.6 224 L 131.2 228.8 L 138.9 217.6 L 146.5 225.6 L 154.2 222.4 L 161.8 208 L 169.5 217.6 L 177.1 211.2 L 184.8 225.6 L 192.4 214.4 L 200.1 217.6 L 207.8 209.6 L 215.4 222.4 L 223.1 212.8 L 230.7 217.6 L 238.4 211.2 L 246 219.2 L 253.7 204.8 L 261.3 216 L 269 211.2 L 276.6 198.4 L 284.3 204.8 L 291.9 201.6 L 299.6 211.2 L 307.2 203.2 L 314.9 206.4 L 322.6 195.2 L 330.2 201.6 L 337.9 196.8 L 345.5 206.4 L 353.2 193.6 L 360.8 198.4 L 368.5 192 L 376.1 203.2 L 383.8 195.2 L 391.4 198.4 L 399.1 188.8 L 406.7 195.2 L 414.4 190.4 L 422 188.8 L 429.7 193.6 L 437.3 190.4 L 445 188.8" fill="none" stroke="#1B3A5C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="207.8" y="150" width="61.2" height="150" fill="#E6EFF7" rx="4" opacity="0.6"/>
+<line x1="207.8" y1="150" x2="207.8" y2="300" stroke="#6E7B8B" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="269" y1="150" x2="269" y2="300" stroke="#6E7B8B" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="238.4" y="320" font-size="10" fill="#6E7B8B" text-anchor="middle">Δt</text>
+<text x="80" y="145" font-size="10" fill="#6E7B8B">路径连续，却几乎处处不可导</text>
+<text x="80" y="162" font-size="10" fill="#6E7B8B">微小步长上，ΔW ≈ √Δt·Z</text>
+<text x="475" y="122" font-size="11.5" fill="#1B3A5C" font-weight="bold">Σ(ΔW)² → T</text>
+<text x="475" y="164" font-size="9.5" fill="#6E7B8B">n = 4</text>
+<rect x="560" y="150" width="167.7" height="20" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.3" rx="4"/>
+<text x="733.7" y="164" font-size="9" fill="#6E7B8B">2.15</text>
+<text x="475" y="208" font-size="9.5" fill="#6E7B8B">n = 20</text>
+<rect x="560" y="194" width="107.6" height="20" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.3" rx="4"/>
+<text x="673.6" y="208" font-size="9" fill="#6E7B8B">1.38</text>
+<text x="475" y="252" font-size="9.5" fill="#6E7B8B">n = 200</text>
+<rect x="560" y="238" width="81.1" height="20" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.3" rx="4"/>
+<text x="647.1" y="252" font-size="9" fill="#6E7B8B">1.04</text>
+<line x1="638" y1="142" x2="638" y2="300" stroke="#E07B39" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 3"/>
+<text x="638" y="136" font-size="9" fill="#E07B39" text-anchor="middle">T = 1</text>
+<text x="475" y="296" font-size="9.2" fill="#6E7B8B">步长越小，二次变差越接近真实时间</text>
+<rect x="60" y="330" width="200" height="44" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.3" rx="14"/>
+<text x="160" y="342.4" font-size="11.5" fill="#1B3A5C" text-anchor="middle">布朗路径 W_t</text>
+<text x="160" y="357.9" font-size="9" fill="#6E7B8B" text-anchor="middle">连续、处处不可导</text>
+<rect x="300" y="330" width="200" height="44" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.3" rx="14"/>
+<text x="400" y="342.4" font-size="11.5" fill="#1B3A5C" text-anchor="middle">二次变差 Σ(ΔW)²</text>
+<text x="400" y="357.9" font-size="9" fill="#6E7B8B" text-anchor="middle">步长越小越接近 T</text>
+<rect x="540" y="330" width="200" height="44" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.3" rx="14"/>
+<text x="640" y="342.4" font-size="11.5" fill="#1B3A5C" text-anchor="middle">伊藤修正 ½f″dt</text>
+<text x="640" y="357.9" font-size="9" fill="#6E7B8B" text-anchor="middle">链式法则多出的项</text>
+<path d="M 260 352 L 300 352" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a08)"/>
+<path d="M 500 352 L 540 352" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a08)"/>
+</svg>

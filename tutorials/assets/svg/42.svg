@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="42 国内商品期货期权：合约、保证金与期权链" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>42 国内商品期货期权：合约、保证金与期权链｜知识图</title>
+<desc>本章主线：先读合约规格，再按公式算一手保证金，最后在期权链里挑行权价与流动性。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a42" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao42" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag42" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">42</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">国内商品期货期权：合约、保证金与期权链</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：先读合约规格，再按公式算一手保证金，最后在期权链里挑行权价与流动性。</text>
+<rect x="40" y="88" width="240" height="290" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<text x="54" y="108" font-size="10.5" fill="#1B3A5C" font-weight="bold">① 合约规格（示例）</text>
+<text x="54" y="130" font-size="8.6" fill="#6E7B8B">合约乘数</text>
+<text x="54" y="147" font-size="10" fill="#1B3A5C" font-weight="bold">10 吨/手</text>
+<line x1="54" y1="156" x2="266" y2="156" stroke="#E6EFF7" stroke-width="0.9" stroke-linecap="round"/>
+<text x="54" y="170" font-size="8.6" fill="#6E7B8B">最小变动</text>
+<text x="54" y="187" font-size="10" fill="#1B3A5C" font-weight="bold">0.5 元/吨</text>
+<line x1="54" y1="196" x2="266" y2="196" stroke="#E6EFF7" stroke-width="0.9" stroke-linecap="round"/>
+<text x="54" y="210" font-size="8.6" fill="#6E7B8B">行权方式</text>
+<text x="54" y="227" font-size="10" fill="#1B3A5C" font-weight="bold">美式</text>
+<line x1="54" y1="236" x2="266" y2="236" stroke="#E6EFF7" stroke-width="0.9" stroke-linecap="round"/>
+<text x="54" y="250" font-size="8.6" fill="#6E7B8B">最后交易日</text>
+<text x="54" y="267" font-size="10" fill="#1B3A5C" font-weight="bold">标的期货前第 5 个交易日</text>
+<line x1="54" y1="276" x2="266" y2="276" stroke="#E6EFF7" stroke-width="0.9" stroke-linecap="round"/>
+<text x="54" y="290" font-size="8.6" fill="#6E7B8B">行权价间距</text>
+<text x="54" y="307" font-size="10" fill="#1B3A5C" font-weight="bold">依交易所规则</text>
+<line x1="54" y1="316" x2="266" y2="316" stroke="#E6EFF7" stroke-width="0.9" stroke-linecap="round"/>
+<text x="54" y="330" font-size="8.6" fill="#6E7B8B">保证金</text>
+<text x="54" y="347" font-size="10" fill="#1B3A5C" font-weight="bold">按公式收取</text>
+<line x1="54" y1="356" x2="266" y2="356" stroke="#E6EFF7" stroke-width="0.9" stroke-linecap="round"/>
+<rect x="295" y="88" width="250" height="290" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<text x="309" y="108" font-size="10.5" fill="#1B3A5C" font-weight="bold">② 保证金 / 手</text>
+<text x="309" y="134" font-size="9.2" fill="#1B3A5C">权利金 = 期权价 × 乘数</text>
+<text x="309" y="153" font-size="9.2" fill="#1B3A5C">保证金 = 权利金 +</text>
+<text x="309" y="172" font-size="9.2" fill="#6E7B8B">  max(标的保证金 − 虚值额, 最低)</text>
+<rect x="309" y="200" width="200" height="1" fill="#E6EFF7"/>
+<text x="309" y="222" font-size="8.6" fill="#6E7B8B">期权价</text>
+<text x="470" y="222" font-size="9.2" fill="#1B3A5C" text-anchor="end">20 元/吨</text>
+<text x="309" y="244" font-size="8.6" fill="#6E7B8B">权利金</text>
+<text x="470" y="244" font-size="9.2" fill="#1B3A5C" text-anchor="end">200 元</text>
+<text x="309" y="266" font-size="8.6" fill="#6E7B8B">标的保证金</text>
+<text x="470" y="266" font-size="9.2" fill="#1B3A5C" text-anchor="end">3,150 元</text>
+<text x="309" y="288" font-size="8.6" fill="#6E7B8B">虚值额</text>
+<text x="470" y="288" font-size="9.2" fill="#1B3A5C" text-anchor="end">150 元</text>
+<text x="309" y="310" font-size="8.6" fill="#6E7B8B">保证金</text>
+<text x="470" y="310" font-size="9.2" fill="#E07B39" text-anchor="end" font-weight="bold">3,200 元/手</text>
+<rect x="309" y="336" width="200" height="16" fill="#E6EFF7" rx="4"/>
+<rect x="309" y="336" width="12" height="16" fill="#E07B39" rx="4"/>
+<text x="309" y="364" font-size="8.4" fill="#6E7B8B">权利金只占保证金的一部分</text>
+<rect x="565" y="88" width="195" height="290" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<text x="578" y="108" font-size="10.5" fill="#1B3A5C" font-weight="bold">③ 期权链</text>
+<rect x="578" y="124" width="182" height="22" fill="#1B3A5C" rx="4"/>
+<text x="597" y="139" font-size="8" fill="#FFFFFF" text-anchor="middle">K</text>
+<text x="659" y="139" font-size="8" fill="#FFFFFF" text-anchor="middle">Call 买/卖</text>
+<text x="731" y="139" font-size="8" fill="#FFFFFF" text-anchor="middle">IV</text>
+<text x="597" y="163" font-size="8.6" fill="#1B3A5C" text-anchor="middle">90</text>
+<text x="659" y="163" font-size="8.6" fill="#1B3A5C" text-anchor="middle">12.5 / 13.5</text>
+<text x="731" y="163" font-size="8.6" fill="#1B3A5C" text-anchor="middle">31%</text>
+<text x="597" y="189" font-size="8.6" fill="#1B3A5C" text-anchor="middle">95</text>
+<text x="659" y="189" font-size="8.6" fill="#1B3A5C" text-anchor="middle">9.2 / 10.0</text>
+<text x="731" y="189" font-size="8.6" fill="#1B3A5C" text-anchor="middle">29%</text>
+<rect x="578" y="198" width="182" height="26" fill="#E6EFF7" rx="3"/>
+<text x="597" y="215" font-size="8.6" fill="#1B3A5C" text-anchor="middle">100</text>
+<text x="659" y="215" font-size="8.6" fill="#1B3A5C" text-anchor="middle">6.4 / 7.0</text>
+<text x="731" y="215" font-size="8.6" fill="#1B3A5C" text-anchor="middle">27%</text>
+<text x="597" y="241" font-size="8.6" fill="#1B3A5C" text-anchor="middle">105</text>
+<text x="659" y="241" font-size="8.6" fill="#1B3A5C" text-anchor="middle">4.2 / 4.8</text>
+<text x="731" y="241" font-size="8.6" fill="#1B3A5C" text-anchor="middle">28%</text>
+<text x="578" y="300" font-size="8.2" fill="#6E7B8B">Call 卖价高 → 买价隐波低</text>
+<text x="578" y="316" font-size="8.2" fill="#1B3A5C">选行权价：近月 ATM 流动性最好</text>
+<text x="578" y="332" font-size="8.2" fill="#6E7B8B">买卖价差 = 隐形的交易成本</text>
+<path d="M 281 230 L 294 230" fill="none" stroke="#6E7B8B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag42)"/>
+<path d="M 546 230 L 564 230" fill="none" stroke="#6E7B8B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag42)"/>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="34 组合优化：均值方差、风险平价与 BL" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>34 组合优化：均值方差、风险平价与 BL｜知识图</title>
+<desc>本章主线：均值方差的前沿很漂亮但权重极端；收缩、风险平价与 BL 观点把它拉回可执行。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a34" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao34" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag34" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">34</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">组合优化：均值方差、风险平价与 BL</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：均值方差的前沿很漂亮但权重极端；收缩、风险平价与 BL 观点把它拉回可执行。</text>
+<path d="M 80 330 L 555 330" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag34)"/>
+<path d="M 80 330 L 80 330" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag34)"/>
+<path d="M 80 330 L 80 330" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag34)"/>
+<path d="M 80 330 L 80 110" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag34)"/>
+<text x="540" y="348" font-size="9.5" fill="#6E7B8B">风险 σ</text>
+<text x="88" y="122" font-size="9.5" fill="#6E7B8B">收益 μ</text>
+<path d="M 175 298 L 215 262 L 265 228 L 325 202 L 390 186 L 455 176 L 520 170" fill="none" stroke="#1B3A5C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="300" y="168" font-size="9.6" fill="#1B3A5C" font-weight="bold">有效前沿</text>
+<circle cx="140" cy="302" r="3.6" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.2"/>
+<text x="146" y="298" font-size="8.4" fill="#6E7B8B">A</text>
+<circle cx="160" cy="288" r="3.6" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.2"/>
+<text x="166" y="284" font-size="8.4" fill="#6E7B8B">B</text>
+<circle cx="190" cy="296" r="3.6" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.2"/>
+<text x="196" y="292" font-size="8.4" fill="#6E7B8B">C</text>
+<circle cx="225" cy="282" r="3.6" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.2"/>
+<text x="231" y="278" font-size="8.4" fill="#6E7B8B">D</text>
+<circle cx="175" cy="298" r="5" fill="#FFFFFF" stroke="#E07B39" stroke-width="1.8"/>
+<text x="120" y="318" font-size="8.6" fill="#E07B39">最小方差</text>
+<line x1="90" y1="330" x2="470" y2="148" stroke="#E07B39" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 4"/>
+<circle cx="390" cy="186" r="5.2" fill="#E07B39"/>
+<text x="398" y="206" font-size="8.8" fill="#E07B39">CML / 切点</text>
+<circle cx="455" cy="176" r="4.5" fill="#FFFFFF" stroke="#1B3A5C" stroke-width="1.7"/>
+<text x="463" y="196" font-size="8.6" fill="#1B3A5C">风险平价</text>
+<path d="M 185 290 L 235 252 L 300 216 L 370 194 L 445 182 L 515 174" fill="none" stroke="#6E7B8B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<text x="445" y="160" font-size="8.8" fill="#6E7B8B">BL 调整后前沿</text>
+<rect x="600" y="100" width="155" height="60" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="677.5" y="122.4" font-size="10.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">均值方差 MVO</text>
+<text x="677.5" y="140.2" font-size="8.4" fill="#6E7B8B" text-anchor="middle">前沿漂亮，权重极端</text>
+<rect x="600" y="182" width="155" height="60" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="677.5" y="204.4" font-size="10.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">风险平价</text>
+<text x="677.5" y="222.2" font-size="8.4" fill="#6E7B8B" text-anchor="middle">风险贡献相等</text>
+<rect x="600" y="264" width="155" height="60" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="677.5" y="286.4" font-size="10.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">Black–Litterman</text>
+<text x="677.5" y="304.2" font-size="8.4" fill="#6E7B8B" text-anchor="middle">均衡收益 + 主观观点</text>
+<path d="M 598 130 L 522 171" fill="none" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-start="url(#ag34)"/>
+<path d="M 598 214 L 458 179" fill="none" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-start="url(#ag34)"/>
+<path d="M 598 296 L 518 176" fill="none" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-start="url(#ag34)"/>
+<text x="80" y="378" font-size="9.2" fill="#6E7B8B">收缩估计：Σ 加噪、μ 收缩；约束：换手、上限、整数手数</text>
+</svg>

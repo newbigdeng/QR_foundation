@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="16 独立完成一份有对照的因子小报告" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>16 独立完成一份有对照的因子小报告｜知识图</title>
+<desc>本章主线：按“问题→数据→方法→结果→成本→结论/限制”交一份别人能复算的 2 页报告。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">16</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">独立完成一份有对照的因子小报告</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：按“问题→数据→方法→结果→成本→结论/限制”交一份别人能复算的 2 页报告。</text>
+<rect x="41" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="121" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">事件数据与成本参数</text>
+<text x="121" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">样本期、独立交易日</text>
+<rect x="51" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="68" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输入</text>
+<rect x="227" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="307" y="132.1" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">训练/测试切分 + 同日</text>
+<text x="307" y="150.6" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">配对</text>
+<text x="307" y="170.6" font-size="10.5" fill="#6E7B8B" text-anchor="middle">分组、区间、成本账</text>
+<rect x="237" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="254" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">处理</text>
+<rect x="413" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="493" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">2 页因子小报告</text>
+<text x="493" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">继续 / 暂停 / 放弃</text>
+<rect x="423" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="440" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输出</text>
+<rect x="599" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="679" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">评分表自检</text>
+<text x="679" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">读者能否按规则复算</text>
+<rect x="609" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="626" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">检查</text>
+<path d="M 201 149 L 227 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a16)"/>
+<path d="M 387 149 L 413 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a16)"/>
+<path d="M 573 149 L 599 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a16)"/>
+<rect x="41" y="232" width="718" height="152" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<rect x="58" y="246" width="4" height="11" fill="#E07B39" rx="1"/>
+<text x="70" y="256" font-size="11.5" fill="#1B3A5C" font-weight="bold">2 页小报告的六块与交付标准</text>
+<rect x="75" y="266" width="305" height="118" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="8"/>
+<text x="88" y="284" font-size="9.5" fill="#1B3A5C" font-weight="bold">因子小报告 · 六块</text>
+<rect x="88" y="292" width="280" height="1" fill="#E6EFF7"/>
+<rect x="89" y="300" width="7" height="7" fill="#E6EFF7" stroke="#6E7B8B" stroke-width="0.9" rx="1"/>
+<path d="M 89.5 303.5 L 91 305.0 L 93.5 301.0" fill="none" stroke="#E07B39" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="103" y="306" font-size="9" fill="#1B3A5C">问题与假设</text>
+<rect x="89" y="313.4" width="7" height="7" fill="#E6EFF7" stroke="#6E7B8B" stroke-width="0.9" rx="1"/>
+<path d="M 89.5 316.9 L 91 318.4 L 93.5 314.4" fill="none" stroke="#E07B39" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="103" y="319.4" font-size="9" fill="#1B3A5C">数据说明</text>
+<rect x="89" y="326.8" width="7" height="7" fill="#E6EFF7" stroke="#6E7B8B" stroke-width="0.9" rx="1"/>
+<path d="M 89.5 330.3 L 91 331.8 L 93.5 327.8" fill="none" stroke="#E07B39" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="103" y="332.8" font-size="9" fill="#1B3A5C">方法与切分</text>
+<rect x="89" y="340.2" width="7" height="7" fill="#E6EFF7" stroke="#6E7B8B" stroke-width="0.9" rx="1"/>
+<path d="M 89.5 343.7 L 91 345.2 L 93.5 341.2" fill="none" stroke="#E07B39" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="103" y="346.2" font-size="9" fill="#1B3A5C">结果与区间</text>
+<rect x="89" y="353.6" width="7" height="7" fill="#E6EFF7" stroke="#6E7B8B" stroke-width="0.9" rx="1"/>
+<path d="M 89.5 357.1 L 91 358.6 L 93.5 354.6" fill="none" stroke="#E07B39" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="103" y="359.6" font-size="9" fill="#1B3A5C">成本账</text>
+<rect x="89" y="367" width="7" height="7" fill="#E6EFF7" stroke="#6E7B8B" stroke-width="0.9" rx="1"/>
+<path d="M 89.5 370.5 L 91 372.0 L 93.5 368.0" fill="none" stroke="#E07B39" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="103" y="373" font-size="9" fill="#1B3A5C">结论与限制</text>
+<text x="402" y="286" font-size="9.5" fill="#1B3A5C" font-weight="bold">交付标准</text>
+<rect x="402" y="297" width="4" height="8" fill="#E07B39" rx="1"/>
+<text x="412" y="305" font-size="9.4" fill="#6E7B8B">读者只能按你写的规则复算</text>
+<rect x="402" y="314" width="4" height="8" fill="#E07B39" rx="1"/>
+<text x="412" y="322" font-size="9.4" fill="#6E7B8B">只报均值 = 没报不确定性</text>
+<rect x="402" y="331" width="4" height="8" fill="#E07B39" rx="1"/>
+<text x="412" y="339" font-size="9.4" fill="#6E7B8B">“少亏”不等于“赚钱”</text>
+<rect x="402" y="348" width="4" height="8" fill="#E07B39" rx="1"/>
+<text x="412" y="356" font-size="9.4" fill="#6E7B8B">限制与下一步必须写明</text>
+</svg>

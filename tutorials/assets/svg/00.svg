@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="00 导读：从零走到能独立做因子研究" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>00 导读：从零走到能独立做因子研究｜知识图</title>
+<desc>本章主线：先选路线、装好环境，再用一张最小研究卡，把想法变成能复查的实验。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">00</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">导读：从零走到能独立做因子研究</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：先选路线、装好环境，再用一张最小研究卡，把想法变成能复查的实验。</text>
+<rect x="41" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="121" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">一个交易想法</text>
+<text x="121" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">或一张看不懂的因子报告</text>
+<rect x="51" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="68" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输入</text>
+<rect x="227" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="307" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">按推荐路线学习</text>
+<text x="307" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">数学 → 因子 → 期权 → 工程</text>
+<rect x="237" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="254" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">处理</text>
+<rect x="413" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="493" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">可复现的因子报告</text>
+<text x="493" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">有对照、有成本、有样本外</text>
+<rect x="423" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="440" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输出</text>
+<rect x="599" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="679" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">复盘与自评</text>
+<text x="679" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">按评分表承认限制</text>
+<rect x="609" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="626" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">检查</text>
+<path d="M 201 149 L 227 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a00)"/>
+<path d="M 387 149 L 413 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a00)"/>
+<path d="M 573 149 L 599 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a00)"/>
+<rect x="41" y="232" width="718" height="152" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<rect x="58" y="246" width="4" height="11" fill="#E07B39" rx="1"/>
+<text x="70" y="256" font-size="11.5" fill="#1B3A5C" font-weight="bold">推荐路线：从想法到报告</text>
+<text x="60" y="300" font-size="10.5" fill="#6E7B8B">一个想法</text>
+<line x1="108" y1="296" x2="700" y2="296" stroke="#6E7B8B" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 4"/>
+<circle cx="175" cy="296" r="8" fill="#FFFFFF" stroke="#1B3A5C" stroke-width="2"/>
+<text x="175" y="273" font-size="11" fill="#1B3A5C" text-anchor="middle" font-weight="bold">① 数学与统计</text>
+<text x="175" y="322" font-size="8.6" fill="#6E7B8B" text-anchor="middle">02 06 07 08 09 10</text>
+<circle cx="355" cy="296" r="8" fill="#FFFFFF" stroke="#1B3A5C" stroke-width="2"/>
+<text x="355" y="273" font-size="11" fill="#1B3A5C" text-anchor="middle" font-weight="bold">② 因子研究</text>
+<text x="355" y="322" font-size="8.6" fill="#6E7B8B" text-anchor="middle">01 03 04 05 13 16–18 26 28–32</text>
+<circle cx="535" cy="296" r="8" fill="#FFFFFF" stroke="#1B3A5C" stroke-width="2"/>
+<text x="535" y="273" font-size="11" fill="#1B3A5C" text-anchor="middle" font-weight="bold">③ 期权与工程</text>
+<text x="535" y="322" font-size="8.6" fill="#6E7B8B" text-anchor="middle">11 12 14 15 19 21–27 37</text>
+<circle cx="695" cy="296" r="8" fill="#FFFFFF" stroke="#E07B39" stroke-width="2"/>
+<text x="695" y="273" font-size="11" fill="#1B3A5C" text-anchor="middle" font-weight="bold">④ 资金与交付</text>
+<text x="695" y="322" font-size="8.6" fill="#6E7B8B" text-anchor="middle">33 34 35 36 + 38–44 七本</text>
+<text x="735" y="300" font-size="10.5" fill="#6E7B8B">报告</text>
+<path d="M 700 296 L 728 296" fill="none" stroke="#6E7B8B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag00)"/>
+</svg>

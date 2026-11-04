@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="18 实战：普通下破前能区分持续下跌吗" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>18 实战：普通下破前能区分持续下跌吗｜知识图</title>
+<desc>本章主线：先写可能推翻假设的研究计划，再做训练/测试、配对与成本，最后按评分表自评。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a18" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao18" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag18" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">18</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">实战：普通下破前能区分持续下跌吗</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：先写可能推翻假设的研究计划，再做训练/测试、配对与成本，最后按评分表自评。</text>
+<rect x="41" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="121" y="133.8" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">事件数据与成本</text>
+<text x="121" y="153.9" font-size="10.5" fill="#6E7B8B" text-anchor="middle">eff / floor / width /</text>
+<text x="121" y="168.9" font-size="10.5" fill="#6E7B8B" text-anchor="middle">c1–c10</text>
+<rect x="51" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="68" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输入</text>
+<rect x="227" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="307" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">定义事件、因子与标签</text>
+<text x="307" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">训练/测试、分组、配对</text>
+<rect x="237" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="254" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">处理</text>
+<rect x="413" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="493" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">对照表与结论</text>
+<text x="493" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">可交易 / 不可交易</text>
+<rect x="423" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="440" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输出</text>
+<rect x="599" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="679" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">评分表 / 停止规则</text>
+<text x="679" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">计划先于数据</text>
+<rect x="609" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="626" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">检查</text>
+<path d="M 201 149 L 227 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a18)"/>
+<path d="M 387 149 L 413 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a18)"/>
+<path d="M 573 149 L 599 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a18)"/>
+<rect x="41" y="232" width="718" height="152" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<rect x="58" y="246" width="4" height="11" fill="#E07B39" rx="1"/>
+<text x="70" y="256" font-size="11.5" fill="#1B3A5C" font-weight="bold">下破前后：两种后续路径</text>
+<path d="M 85 289.5 L 105 293.1 L 125 291.3 L 145 298.5 L 165 297.6 L 185 305.2 L 205 303.9 L 225 311.1 L 245 310.2 L 265 316.5 L 285 314.7 L 305 321.9 L 325 320.1 L 345 327.8 L 365 325.5 L 385 332.2 L 405 330" fill="none" stroke="#1B3A5C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="85" y1="330" x2="400" y2="330" stroke="#E07B39" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="5 3"/>
+<text x="86" y="322" font-size="8.6" fill="#E07B39">触发线（前两根 5′ 低点）</text>
+<circle cx="405" cy="330" r="4.5" fill="#E07B39" stroke="#E07B39" stroke-width="1.4"/>
+<text x="432" y="330" font-size="9" fill="#E07B39" font-weight="bold">突破</text>
+<path d="M 447 330 L 490 330" fill="none" stroke="#6E7B8B" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag18)"/>
+<path d="M 490 330 L 540 350 L 600 362 L 660 376" fill="none" stroke="#1B3A5C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 490 330 L 540 316 L 600 322 L 660 310" fill="none" stroke="#6E7B8B" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"/>
+<text x="668" y="379" font-size="8.8" fill="#1B3A5C">持续下跌</text>
+<text x="668" y="305" font-size="8.8" fill="#6E7B8B">短暂越界</text>
+<text x="490" y="296" font-size="8.6" fill="#6E7B8B">10 分钟标签窗口</text>
+</svg>

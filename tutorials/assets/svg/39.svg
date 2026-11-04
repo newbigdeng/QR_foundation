@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="39 多因子合成：IC、风险平价与机器学习" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>39 多因子合成：IC、风险平价与机器学习｜知识图</title>
+<desc>本章主线：方向、标准化、正交化先做好，再谈权重；合成之后必须做同日增量对照。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a39" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao39" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag39" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">39</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">多因子合成：IC、风险平价与机器学习</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：方向、标准化、正交化先做好，再谈权重；合成之后必须做同日增量对照。</text>
+<rect x="43" y="96" width="130" height="76" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="108" y="126.6" font-size="12" fill="#1B3A5C" text-anchor="middle" font-weight="bold">方向统一</text>
+<text x="108" y="145.1" font-size="9" fill="#6E7B8B" text-anchor="middle">+1 / −1</text>
+<rect x="189" y="96" width="130" height="76" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="254" y="126.6" font-size="12" fill="#1B3A5C" text-anchor="middle" font-weight="bold">标准化</text>
+<text x="254" y="145.1" font-size="9" fill="#6E7B8B" text-anchor="middle">z-score / rank</text>
+<rect x="335" y="96" width="130" height="76" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="400" y="126.6" font-size="12" fill="#1B3A5C" text-anchor="middle" font-weight="bold">正交化</text>
+<text x="400" y="145.1" font-size="9" fill="#6E7B8B" text-anchor="middle">残差去共线</text>
+<rect x="481" y="96" width="130" height="76" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="546" y="119.8" font-size="12" fill="#1B3A5C" text-anchor="middle" font-weight="bold">定权</text>
+<text x="546" y="138.4" font-size="9" fill="#6E7B8B" text-anchor="middle">等权 / IC / 风险平价 /</text>
+<text x="546" y="151.9" font-size="9" fill="#6E7B8B" text-anchor="middle">ML</text>
+<rect x="627" y="96" width="130" height="76" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="692" y="126.6" font-size="12" fill="#1B3A5C" text-anchor="middle" font-weight="bold">合成分数</text>
+<text x="692" y="145.1" font-size="9" fill="#6E7B8B" text-anchor="middle">同日增量对照</text>
+<path d="M 173 134 L 189 134" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a39)"/>
+<path d="M 319 134 L 335 134" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a39)"/>
+<path d="M 465 134 L 481 134" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a39)"/>
+<path d="M 611 134 L 627 134" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a39)"/>
+<rect x="45" y="198" width="320" height="178" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<text x="60" y="218" font-size="10.5" fill="#1B3A5C" font-weight="bold">得分矩阵（标准化后）</text>
+<text x="60" y="250" font-size="8.6" fill="#6E7B8B">动量</text>
+<text x="60" y="274" font-size="8.6" fill="#6E7B8B">拥挤</text>
+<text x="60" y="298" font-size="8.6" fill="#6E7B8B">库存</text>
+<text x="60" y="322" font-size="8.6" fill="#6E7B8B">质量</text>
+<rect x="100" y="234" width="46" height="22" fill="#1B3A5C" rx="3"/>
+<text x="123" y="249" font-size="7.6" fill="#FFFFFF" text-anchor="middle">+0.8</text>
+<rect x="148" y="234" width="46" height="22" fill="#E07B39" rx="3"/>
+<text x="171" y="249" font-size="7.6" fill="#FFFFFF" text-anchor="middle">-1.2</text>
+<rect x="196" y="234" width="46" height="22" fill="#E6EFF7" rx="3"/>
+<text x="219" y="249" font-size="7.6" fill="#1B3A5C" text-anchor="middle">+0.3</text>
+<rect x="244" y="234" width="46" height="22" fill="#1B3A5C" rx="3"/>
+<text x="267" y="249" font-size="7.6" fill="#FFFFFF" text-anchor="middle">+1.4</text>
+<rect x="292" y="234" width="46" height="22" fill="#E07B39" rx="3"/>
+<text x="315" y="249" font-size="7.6" fill="#FFFFFF" text-anchor="middle">-0.5</text>
+<rect x="100" y="258" width="46" height="22" fill="#E07B39" rx="3"/>
+<text x="123" y="273" font-size="7.6" fill="#FFFFFF" text-anchor="middle">-0.6</text>
+<rect x="148" y="258" width="46" height="22" fill="#1B3A5C" rx="3"/>
+<text x="171" y="273" font-size="7.6" fill="#FFFFFF" text-anchor="middle">+1.1</text>
+<rect x="196" y="258" width="46" height="22" fill="#E6EFF7" rx="3"/>
+<text x="219" y="273" font-size="7.6" fill="#1B3A5C" text-anchor="middle">+0.2</text>
+<rect x="244" y="258" width="46" height="22" fill="#E07B39" rx="3"/>
+<text x="267" y="273" font-size="7.6" fill="#FFFFFF" text-anchor="middle">-0.9</text>
+<rect x="292" y="258" width="46" height="22" fill="#E6EFF7" rx="3"/>
+<text x="315" y="273" font-size="7.6" fill="#1B3A5C" text-anchor="middle">+0.7</text>
+<rect x="100" y="282" width="46" height="22" fill="#E6EFF7" rx="3"/>
+<text x="123" y="297" font-size="7.6" fill="#1B3A5C" text-anchor="middle">+0.4</text>
+<rect x="148" y="282" width="46" height="22" fill="#E6EFF7" rx="3"/>
+<text x="171" y="297" font-size="7.6" fill="#1B3A5C" text-anchor="middle">+0.5</text>
+<rect x="196" y="282" width="46" height="22" fill="#E07B39" rx="3"/>
+<text x="219" y="297" font-size="7.6" fill="#FFFFFF" text-anchor="middle">-1.3</text>
+<rect x="244" y="282" width="46" height="22" fill="#E6EFF7" rx="3"/>
+<text x="267" y="297" font-size="7.6" fill="#1B3A5C" text-anchor="middle">+0.1</text>
+<rect x="292" y="282" width="46" height="22" fill="#1B3A5C" rx="3"/>
+<text x="315" y="297" font-size="7.6" fill="#FFFFFF" text-anchor="middle">+1.0</text>
+<rect x="100" y="306" width="46" height="22" fill="#E07B39" rx="3"/>
+<text x="123" y="321" font-size="7.6" fill="#FFFFFF" text-anchor="middle">-0.2</text>
+<rect x="148" y="306" width="46" height="22" fill="#E07B39" rx="3"/>
+<text x="171" y="321" font-size="7.6" fill="#FFFFFF" text-anchor="middle">-0.7</text>
+<rect x="196" y="306" width="46" height="22" fill="#1B3A5C" rx="3"/>
+<text x="219" y="321" font-size="7.6" fill="#FFFFFF" text-anchor="middle">+0.9</text>
+<rect x="244" y="306" width="46" height="22" fill="#E07B39" rx="3"/>
+<text x="267" y="321" font-size="7.6" fill="#FFFFFF" text-anchor="middle">-0.4</text>
+<rect x="292" y="306" width="46" height="22" fill="#E6EFF7" rx="3"/>
+<text x="315" y="321" font-size="7.6" fill="#1B3A5C" text-anchor="middle">+0.6</text>
+<text x="60" y="360" font-size="8.4" fill="#6E7B8B">颜色：深 = 高分，橙 = 负分</text>
+<rect x="390" y="198" width="365" height="178" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<text x="405" y="218" font-size="10.5" fill="#1B3A5C" font-weight="bold">合成权重：等权 vs IC 加权</text>
+<text x="405" y="256" font-size="9" fill="#6E7B8B">动量</text>
+<rect x="455" y="244" width="200" height="16" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1" rx="4"/>
+<rect x="455" y="244" width="200" height="16" fill="#E07B39" stroke="#1B3A5C" stroke-width="1.1" rx="4"/>
+<text x="661" y="256" font-size="8.8" fill="#1B3A5C">0.35</text>
+<text x="405" y="286" font-size="9" fill="#6E7B8B">拥挤</text>
+<rect x="455" y="274" width="200" height="16" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1" rx="4"/>
+<rect x="455" y="274" width="142.9" height="16" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.1" rx="4"/>
+<text x="603.9" y="286" font-size="8.8" fill="#1B3A5C">0.25</text>
+<text x="405" y="316" font-size="9" fill="#6E7B8B">库存</text>
+<rect x="455" y="304" width="200" height="16" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1" rx="4"/>
+<rect x="455" y="304" width="125.7" height="16" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.1" rx="4"/>
+<text x="586.7" y="316" font-size="8.8" fill="#1B3A5C">0.22</text>
+<text x="405" y="346" font-size="9" fill="#6E7B8B">质量</text>
+<rect x="455" y="334" width="200" height="16" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1" rx="4"/>
+<rect x="455" y="334" width="102.9" height="16" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.1" rx="4"/>
+<text x="563.9" y="346" font-size="8.8" fill="#1B3A5C">0.18</text>
+<text x="405" y="364" font-size="8.4" fill="#6E7B8B">同一矩阵，不同加权 → 不同组合；必须同日对照</text>
+<path d="M 400 174 Q 355 188 300 197" fill="none" stroke="#6E7B8B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#ag39)"/>
+<path d="M 546 174 Q 585 188 620 197" fill="none" stroke="#6E7B8B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#ag39)"/>
+</svg>

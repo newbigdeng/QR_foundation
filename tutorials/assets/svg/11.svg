@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="11 机器学习与向前滚动验证" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>11 机器学习与向前滚动验证｜知识图</title>
+<desc>本章主线：时间不能打乱——训练、验证、测试按时间切，purge/embargo 挡住泄漏。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">11</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">机器学习与向前滚动验证</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：时间不能打乱——训练、验证、测试按时间切，purge/embargo 挡住泄漏。</text>
+<rect x="45" y="95" width="160" height="53" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="125" y="114" font-size="12.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">训练集</text>
+<text x="125" y="133" font-size="9.5" fill="#6E7B8B" text-anchor="middle">拟合参数</text>
+<rect x="45" y="158" width="160" height="53" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="125" y="177" font-size="12.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">purge / embargo</text>
+<text x="125" y="196" font-size="9.5" fill="#6E7B8B" text-anchor="middle">挖掉重叠标签</text>
+<rect x="45" y="221" width="160" height="53" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="125" y="240" font-size="12.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">验证集</text>
+<text x="125" y="259" font-size="9.5" fill="#6E7B8B" text-anchor="middle">选模型、调超参</text>
+<rect x="45" y="284" width="160" height="53" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="125" y="303" font-size="12.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">测试集</text>
+<text x="125" y="322" font-size="9.5" fill="#6E7B8B" text-anchor="middle">只看一次，不回头</text>
+<path d="M 125 148 L 125 158" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a10)"/>
+<path d="M 125 211 L 125 221" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a10)"/>
+<path d="M 125 274 L 125 284" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a10)"/>
+<text x="235" y="110" font-size="11" fill="#1B3A5C" font-weight="bold">向前滚动切分：不打乱、不回头</text>
+<text x="242" y="154" font-size="9" fill="#6E7B8B" text-anchor="end">Fold 1</text>
+<rect x="250" y="140" width="120" height="26" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.1" rx="4"/>
+<rect x="370" y="140" width="12" height="26" fill="#FFFFFF" stroke="#6E7B8B" stroke-width="1" rx="2" stroke-dasharray="2 2"/>
+<rect x="382" y="140" width="52" height="26" fill="#E07B39" rx="4"/>
+<rect x="434" y="140" width="311" height="26" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1" rx="4" stroke-dasharray="5 4"/>
+<text x="260" y="157" font-size="8.8" fill="#1B3A5C">训练</text>
+<text x="442" y="157" font-size="8.2" fill="#6E7B8B">未来不可见</text>
+<text x="242" y="200" font-size="9" fill="#6E7B8B" text-anchor="end">Fold 2</text>
+<rect x="250" y="186" width="186" height="26" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.1" rx="4"/>
+<rect x="436" y="186" width="12" height="26" fill="#FFFFFF" stroke="#6E7B8B" stroke-width="1" rx="2" stroke-dasharray="2 2"/>
+<rect x="448" y="186" width="52" height="26" fill="#E07B39" rx="4"/>
+<rect x="500" y="186" width="245" height="26" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1" rx="4" stroke-dasharray="5 4"/>
+<text x="260" y="203" font-size="8.8" fill="#1B3A5C">训练</text>
+<text x="508" y="203" font-size="8.2" fill="#6E7B8B">未来不可见</text>
+<text x="242" y="246" font-size="9" fill="#6E7B8B" text-anchor="end">Fold 3</text>
+<rect x="250" y="232" width="252" height="26" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.1" rx="4"/>
+<rect x="502" y="232" width="12" height="26" fill="#FFFFFF" stroke="#6E7B8B" stroke-width="1" rx="2" stroke-dasharray="2 2"/>
+<rect x="514" y="232" width="52" height="26" fill="#E07B39" rx="4"/>
+<rect x="566" y="232" width="179" height="26" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1" rx="4" stroke-dasharray="5 4"/>
+<text x="260" y="249" font-size="8.8" fill="#1B3A5C">训练</text>
+<text x="574" y="249" font-size="8.2" fill="#6E7B8B">未来不可见</text>
+<text x="242" y="292" font-size="9" fill="#6E7B8B" text-anchor="end">Fold 4</text>
+<rect x="250" y="278" width="318" height="26" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.1" rx="4"/>
+<rect x="568" y="278" width="12" height="26" fill="#FFFFFF" stroke="#6E7B8B" stroke-width="1" rx="2" stroke-dasharray="2 2"/>
+<rect x="580" y="278" width="52" height="26" fill="#E07B39" rx="4"/>
+<rect x="632" y="278" width="113" height="26" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1" rx="4" stroke-dasharray="5 4"/>
+<text x="260" y="295" font-size="8.8" fill="#1B3A5C">训练</text>
+<text x="640" y="295" font-size="8.2" fill="#6E7B8B">未来不可见</text>
+<path d="M 250 336 L 748 336" fill="none" stroke="#6E7B8B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag10)"/>
+<line x1="250" y1="332" x2="250" y2="340" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round"/>
+<text x="250" y="353" font-size="8.5" fill="#6E7B8B" text-anchor="middle">t0</text>
+<line x1="349" y1="332" x2="349" y2="340" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round"/>
+<text x="349" y="353" font-size="8.5" fill="#6E7B8B" text-anchor="middle">t1</text>
+<line x1="448" y1="332" x2="448" y2="340" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round"/>
+<text x="448" y="353" font-size="8.5" fill="#6E7B8B" text-anchor="middle">t2</text>
+<line x1="547" y1="332" x2="547" y2="340" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round"/>
+<text x="547" y="353" font-size="8.5" fill="#6E7B8B" text-anchor="middle">t3</text>
+<line x1="646" y1="332" x2="646" y2="340" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round"/>
+<text x="646" y="353" font-size="8.5" fill="#6E7B8B" text-anchor="middle">t4</text>
+<line x1="745" y1="332" x2="745" y2="340" stroke="#6E7B8B" stroke-width="1" stroke-linecap="round"/>
+<text x="745" y="353" font-size="8.5" fill="#6E7B8B" text-anchor="middle">t5</text>
+<rect x="250" y="366" width="10" height="10" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1" rx="2"/>
+<text x="265" y="375" font-size="8.8" fill="#6E7B8B">训练</text>
+<rect x="328" y="366" width="10" height="10" fill="#FFFFFF" stroke="#6E7B8B" stroke-width="1" rx="2" stroke-dasharray="2 2"/>
+<text x="343" y="375" font-size="8.8" fill="#6E7B8B">purge</text>
+<rect x="406" y="366" width="10" height="10" fill="#E07B39" stroke="#E07B39" stroke-width="1" rx="2"/>
+<text x="421" y="375" font-size="8.8" fill="#6E7B8B">验证</text>
+<rect x="484" y="366" width="10" height="10" fill="#FFFFFF" stroke="#6E7B8B" stroke-width="1" rx="2" stroke-dasharray="4 3"/>
+<text x="499" y="375" font-size="8.8" fill="#6E7B8B">未来不可见</text>
+<text x="600" y="375" font-size="9.2" fill="#1B3A5C">purge / embargo：挡住重叠标签与泄漏</text>
+</svg>

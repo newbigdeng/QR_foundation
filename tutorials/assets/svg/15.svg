@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="15 读懂 WT-plus 工具链与一次失败的优化" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>15 读懂 WT-plus 工具链与一次失败的优化｜知识图</title>
+<desc>本章主线：筛选、优化、追踪、回放各答一问；“优化冠军”不等于可上线策略。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a15" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao15" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag15" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">15</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">读懂 WT-plus 工具链与一次失败的优化</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：筛选、优化、追踪、回放各答一问；“优化冠军”不等于可上线策略。</text>
+<rect x="41" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="121" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">试验账本与回放结果</text>
+<text x="121" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">族、冠军、空仓基准</text>
+<rect x="51" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="68" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输入</text>
+<rect x="227" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="307" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">2×2 消融实验</text>
+<text x="307" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">分离主效应与交互</text>
+<rect x="237" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="254" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">处理</text>
+<rect x="413" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="493" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">失败诊断与下一步</text>
+<text x="493" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">价格 / 数量 / 费用归因</text>
+<rect x="423" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="440" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输出</text>
+<rect x="599" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="679" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">可复查记录</text>
+<text x="679" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">试验次数必须写进结论</text>
+<rect x="609" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="626" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">检查</text>
+<path d="M 201 149 L 227 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a15)"/>
+<path d="M 387 149 L 413 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a15)"/>
+<path d="M 573 149 L 599 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a15)"/>
+<rect x="41" y="232" width="718" height="152" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<rect x="58" y="246" width="4" height="11" fill="#E07B39" rx="1"/>
+<text x="70" y="256" font-size="11.5" fill="#1B3A5C" font-weight="bold">一次“成功优化”的失败诊断</text>
+<text x="58" y="278" font-size="9.5" fill="#6E7B8B">7 组试验：优化器说“冠军”，实盘却转负</text>
+<rect x="95" y="322" width="24" height="34" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.2" rx="3"/>
+<text x="107" y="317" font-size="8" fill="#6E7B8B" text-anchor="middle">34</text>
+<rect x="135" y="310" width="24" height="46" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.2" rx="3"/>
+<text x="147" y="305" font-size="8" fill="#6E7B8B" text-anchor="middle">46</text>
+<rect x="175" y="316" width="24" height="40" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.2" rx="3"/>
+<text x="187" y="311" font-size="8" fill="#6E7B8B" text-anchor="middle">40</text>
+<rect x="215" y="294" width="24" height="62" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.2" rx="3"/>
+<text x="227" y="289" font-size="8" fill="#6E7B8B" text-anchor="middle">62</text>
+<rect x="255" y="302" width="24" height="54" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.2" rx="3"/>
+<text x="267" y="297" font-size="8" fill="#6E7B8B" text-anchor="middle">54</text>
+<rect x="295" y="274" width="24" height="82" fill="#E07B39" stroke="#E07B39" stroke-width="1.2" rx="3"/>
+<text x="307" y="269" font-size="8" fill="#6E7B8B" text-anchor="middle">82</text>
+<rect x="335" y="306" width="24" height="50" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.2" rx="3"/>
+<text x="347" y="301" font-size="8" fill="#6E7B8B" text-anchor="middle">50</text>
+<path d="M 95 356 L 400 356" fill="none" stroke="#6E7B8B" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag15)"/>
+<text x="98" y="375" font-size="8.8" fill="#6E7B8B">参数组合 / 试验编号</text>
+<text x="213" y="262" font-size="9" fill="#E07B39" text-anchor="middle" font-weight="bold">冠军</text>
+<path d="M 310 272 L 430 292" fill="none" stroke="#E07B39" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3" marker-end="url(#ao15)"/>
+<text x="438" y="289" font-size="9.5" fill="#E07B39" font-weight="bold">实盘 3 个月：净利 −</text>
+<text x="438" y="305" font-size="8.8" fill="#6E7B8B">目标函数 ≠ 账户净利</text>
+<text x="438" y="322" font-size="8.8" fill="#6E7B8B">只看冠军 → 高估</text>
+<text x="438" y="339" font-size="8.8" fill="#6E7B8B">空仓基准要一起算</text>
+</svg>

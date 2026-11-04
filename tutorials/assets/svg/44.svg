@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="44 期权链实战：从报价到曲面与对冲" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>44 期权链实战：从报价到曲面与对冲｜知识图</title>
+<desc>本章主线：清洗期权链、反解买卖价 IV、建总方差曲面，再用 Greeks 对冲并归因 PnL。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a44" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao44" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag44" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">44</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">期权链实战：从报价到曲面与对冲</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：清洗期权链、反解买卖价 IV、建总方差曲面，再用 Greeks 对冲并归因 PnL。</text>
+<rect x="35" y="86" width="275" height="264" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<text x="50" y="106" font-size="10.5" fill="#1B3A5C" font-weight="bold">① 期权链（清洗后）</text>
+<rect x="48" y="122" width="246" height="22" fill="#1B3A5C" rx="4"/>
+<text x="67" y="137" font-size="7.8" fill="#FFFFFF" text-anchor="middle">K</text>
+<text x="130" y="137" font-size="7.8" fill="#FFFFFF" text-anchor="middle">Call 买/卖</text>
+<text x="218" y="137" font-size="7.8" fill="#FFFFFF" text-anchor="middle">Put 买/卖</text>
+<text x="278" y="137" font-size="7.8" fill="#FFFFFF" text-anchor="middle">IV</text>
+<text x="67" y="161" font-size="8.2" fill="#1B3A5C" text-anchor="middle">90</text>
+<text x="130" y="161" font-size="8.2" fill="#1B3A5C" text-anchor="middle">12.5 / 13.5</text>
+<text x="218" y="161" font-size="8.2" fill="#1B3A5C" text-anchor="middle">1.2 / 1.8</text>
+<text x="278" y="161" font-size="8.2" fill="#1B3A5C" text-anchor="middle">31%</text>
+<text x="67" y="187" font-size="8.2" fill="#1B3A5C" text-anchor="middle">95</text>
+<text x="130" y="187" font-size="8.2" fill="#1B3A5C" text-anchor="middle">9.2 / 10.0</text>
+<text x="218" y="187" font-size="8.2" fill="#1B3A5C" text-anchor="middle">2.8 / 3.5</text>
+<text x="278" y="187" font-size="8.2" fill="#1B3A5C" text-anchor="middle">29%</text>
+<rect x="48" y="196" width="246" height="26" fill="#E6EFF7" rx="3"/>
+<text x="67" y="213" font-size="8.2" fill="#1B3A5C" text-anchor="middle">100</text>
+<text x="130" y="213" font-size="8.2" fill="#1B3A5C" text-anchor="middle">6.4 / 7.0</text>
+<text x="218" y="213" font-size="8.2" fill="#1B3A5C" text-anchor="middle">5.9 / 6.5</text>
+<text x="278" y="213" font-size="8.2" fill="#1B3A5C" text-anchor="middle">27%</text>
+<text x="67" y="239" font-size="8.2" fill="#1B3A5C" text-anchor="middle">105</text>
+<text x="130" y="239" font-size="8.2" fill="#1B3A5C" text-anchor="middle">4.2 / 4.8</text>
+<text x="218" y="239" font-size="8.2" fill="#1B3A5C" text-anchor="middle">9.0 / 9.8</text>
+<text x="278" y="239" font-size="8.2" fill="#1B3A5C" text-anchor="middle">28%</text>
+<text x="50" y="306" font-size="8.4" fill="#6E7B8B">清洗：时间戳、单位、买卖价</text>
+<text x="50" y="322" font-size="8.4" fill="#6E7B8B">IV：Black–76 反解，买卖价各一个</text>
+<text x="50" y="338" font-size="8.4" fill="#E07B39">中价只作研究标记，不代表可成交</text>
+<path d="M 312 200 L 358 200" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag44)"/>
+<text x="335" y="190" font-size="8.6" fill="#E07B39" text-anchor="middle" font-weight="bold">反解 IV</text>
+<rect x="365" y="86" width="205" height="264" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<text x="380" y="106" font-size="10.5" fill="#1B3A5C" font-weight="bold">② 微笑 → 总方差</text>
+<path d="M 388 300 L 560 300" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag44)"/>
+<path d="M 388 300 L 388 300" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag44)"/>
+<path d="M 388 300 L 388 300" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag44)"/>
+<path d="M 388 300 L 388 125" fill="none" stroke="#6E7B8B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag44)"/>
+<path d="M 388 224 L 396.5 228.9 L 405 233.4 L 413.5 237.3 L 422 240.6 L 430.5 243.5 L 439 245.8 L 447.5 247.7 L 456 249 L 464.5 249.7 L 473 250 L 481.5 249.7 L 490 249 L 498.5 247.7 L 507 245.8 L 515.5 243.5 L 524 240.6 L 532.5 237.3 L 541 233.4 L 549.5 228.9 L 558 224" fill="none" stroke="#1B3A5C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="552" y="254" font-size="8" fill="#1B3A5C" text-anchor="end">T1</text>
+<path d="M 388 196 L 396.5 200.9 L 405 205.4 L 413.5 209.3 L 422 212.6 L 430.5 215.5 L 439 217.8 L 447.5 219.7 L 456 221 L 464.5 221.7 L 473 222 L 481.5 221.7 L 490 221 L 498.5 219.7 L 507 217.8 L 515.5 215.5 L 524 212.6 L 532.5 209.3 L 541 205.4 L 549.5 200.9 L 558 196" fill="none" stroke="#6E7B8B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"/>
+<text x="552" y="226" font-size="8" fill="#6E7B8B" text-anchor="end">T2</text>
+<path d="M 388 168 L 396.5 172.9 L 405 177.4 L 413.5 181.3 L 422 184.6 L 430.5 187.5 L 439 189.8 L 447.5 191.7 L 456 193 L 464.5 193.7 L 473 194 L 481.5 193.7 L 490 193 L 498.5 191.7 L 507 189.8 L 515.5 187.5 L 524 184.6 L 532.5 181.3 L 541 177.4 L 549.5 172.9 L 558 168" fill="none" stroke="#E07B39" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"/>
+<text x="552" y="198" font-size="8" fill="#E07B39" text-anchor="end">T3</text>
+<text x="398" y="140" font-size="8.6" fill="#6E7B8B">w(k) = σ²(k)·T</text>
+<rect x="590" y="100" width="165" height="66" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="672.5" y="125.3" font-size="10.2" fill="#1B3A5C" text-anchor="middle" font-weight="bold">③ SVI 曲面</text>
+<text x="672.5" y="143" font-size="8.4" fill="#6E7B8B" text-anchor="middle">无套利约束</text>
+<rect x="590" y="190" width="165" height="66" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="672.5" y="215.3" font-size="10.2" fill="#1B3A5C" text-anchor="middle" font-weight="bold">④ Greeks 与对冲</text>
+<text x="672.5" y="233" font-size="8.4" fill="#6E7B8B" text-anchor="middle">PnL 归因</text>
+<path d="M 572 150 L 588 133" fill="none" stroke="#6E7B8B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#ag44)"/>
+<path d="M 672.5 166 L 672.5 190" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a44)"/>
+<text x="35" y="380" font-size="9.2" fill="#6E7B8B">无套利：蝶式 ≥ 0、日历 ≥ 0；曲面插值后也要复查</text>
+</svg>

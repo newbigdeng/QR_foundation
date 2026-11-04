@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="19 库存修订与当时可见的数据" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>19 库存修订与当时可见的数据｜知识图</title>
+<desc>本章主线：回测只能用“当时可见”的版本；初值、修订值、最终值要分开存、按到达时间对齐。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a28" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao28" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag28" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">19</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">库存修订与当时可见的数据</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：回测只能用“当时可见”的版本；初值、修订值、最终值要分开存、按到达时间对齐。</text>
+<rect x="41" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="121" y="132.1" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">发布 / 修订 / 到达记</text>
+<text x="121" y="150.6" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">录</text>
+<text x="121" y="170.6" font-size="10.5" fill="#6E7B8B" text-anchor="middle">版本、时间戳、补发</text>
+<rect x="51" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="68" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输入</text>
+<rect x="227" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="307" y="132.1" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">merge_asof 按可见时</text>
+<text x="307" y="150.6" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">间对齐</text>
+<text x="307" y="170.6" font-size="10.5" fill="#6E7B8B" text-anchor="middle">到达 ≤ 决策时刻</text>
+<rect x="237" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="254" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">处理</text>
+<rect x="413" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="493" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">PIT 面板与信号</text>
+<text x="493" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">保留版本与时间戳</text>
+<rect x="423" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="440" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输出</text>
+<rect x="599" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="679" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">初值 / 修订值对照</text>
+<text x="679" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">估计未来函数的影响</text>
+<rect x="609" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="626" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">检查</text>
+<path d="M 201 149 L 227 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a28)"/>
+<path d="M 387 149 L 413 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a28)"/>
+<path d="M 573 149 L 599 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a28)"/>
+<rect x="41" y="232" width="718" height="152" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<rect x="58" y="246" width="4" height="11" fill="#E07B39" rx="1"/>
+<text x="70" y="256" font-size="11.5" fill="#1B3A5C" font-weight="bold">库存修订的可见性</text>
+<text x="58" y="276" font-size="9.5" fill="#6E7B8B">同一周的库存：初值 100 → 修订 108 → 最终 110</text>
+<path d="M 90 326 L 720 326" fill="none" stroke="#6E7B8B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag28)"/>
+<circle cx="215" cy="326" r="5.5" fill="#FFFFFF" stroke="#1B3A5C" stroke-width="1.8"/>
+<text x="215" y="306" font-size="9" fill="#1B3A5C" text-anchor="middle">09:00 初值 100</text>
+<circle cx="430" cy="326" r="5.5" fill="#FFFFFF" stroke="#E07B39" stroke-width="1.8"/>
+<text x="430" y="306" font-size="9" fill="#6E7B8B" text-anchor="middle">09:10 修订 108</text>
+<circle cx="645" cy="326" r="5.5" fill="#FFFFFF" stroke="#E07B39" stroke-width="1.8"/>
+<text x="645" y="306" font-size="9" fill="#6E7B8B" text-anchor="middle">11:00 最终 110</text>
+<rect x="90" y="318" width="250" height="8" fill="#E6EFF7" rx="3"/>
+<text x="92" y="342" font-size="8.8" fill="#6E7B8B">当时可见（到达 ≤ 决策）</text>
+<line x1="340" y1="286" x2="340" y2="334" stroke="#E07B39" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="336" y="298" font-size="8.8" fill="#E07B39" text-anchor="end" font-weight="bold">决策 09:06</text>
+<text x="336" y="312" font-size="8.8" fill="#E07B39" text-anchor="end">只能看到 100</text>
+<text x="540" y="360" font-size="8.8" fill="#6E7B8B">merge_asof：取 ≤ 时刻的最近记录</text>
+</svg>

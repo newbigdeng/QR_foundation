@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="32 连续时间金融：从热核到违约墙" font-family="Microsoft YaHei, SimHei, sans-serif">
+<title>32 连续时间金融：从热核到违约墙｜知识图</title>
+<desc>本章主线：期权价 = 密度 × 支付的积分；障碍与违约墙看路径，MC 必须报标准误。</desc>
+<rect x="0" y="0" width="800" height="450" fill="#FFFFFF"/>
+<defs><marker id="a20" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1B3A5C"/></marker><marker id="ao20" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#E07B39"/></marker><marker id="ag20" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#6E7B8B"/></marker></defs>
+<rect x="40" y="19" width="46" height="29" fill="#E07B39" rx="8"/>
+<text x="63" y="39" font-size="15" fill="#FFFFFF" text-anchor="middle" font-weight="bold">32</text>
+<text x="98" y="41" font-size="22" fill="#1B3A5C" font-weight="bold">连续时间金融：从热核到违约墙</text>
+<line x1="40" y1="57" x2="760" y2="57" stroke="#E6EFF7" stroke-width="2" stroke-linecap="round"/>
+<line x1="40" y1="407" x2="760" y2="407" stroke="#E6EFF7" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="40" y="418" width="4" height="10" fill="#E07B39" rx="1"/>
+<text x="52" y="428" font-size="13" fill="#6E7B8B">本章主线：期权价 = 密度 × 支付的积分；障碍与违约墙看路径，MC 必须报标准误。</text>
+<rect x="41" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="121" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">SDE 参数与合约条款</text>
+<text x="121" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">GBM、障碍、到期</text>
+<rect x="51" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="68" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输入</text>
+<rect x="227" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="307" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">热核密度积分</text>
+<text x="307" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">密度 × 支付，路径依赖</text>
+<rect x="237" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="254" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">处理</text>
+<rect x="413" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="493" y="141.3" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">障碍概率与 MC 区间</text>
+<text x="493" y="161.4" font-size="10.5" fill="#6E7B8B" text-anchor="middle">标准误、对偶、布朗桥</text>
+<rect x="423" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="440" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">输出</text>
+<rect x="599" y="88" width="160" height="122" fill="#E6EFF7" stroke="#1B3A5C" stroke-width="1.5" rx="14"/>
+<text x="679" y="132.1" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">Feynman–Kac / PDE</text>
+<text x="679" y="150.6" font-size="13.5" fill="#1B3A5C" text-anchor="middle" font-weight="bold">校验</text>
+<text x="679" y="170.6" font-size="10.5" fill="#6E7B8B" text-anchor="middle">解析、差分、模拟三对照</text>
+<rect x="609" y="97" width="34" height="17" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.1" rx="7"/>
+<text x="626" y="109.5" font-size="9.5" fill="#6E7B8B" text-anchor="middle">检查</text>
+<path d="M 201 149 L 227 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a20)"/>
+<path d="M 387 149 L 413 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a20)"/>
+<path d="M 573 149 L 599 149" fill="none" stroke="#1B3A5C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a20)"/>
+<rect x="41" y="232" width="718" height="152" fill="#FFFFFF" stroke="#E6EFF7" stroke-width="1.5" rx="14"/>
+<rect x="58" y="246" width="4" height="11" fill="#E07B39" rx="1"/>
+<text x="70" y="256" font-size="11.5" fill="#1B3A5C" font-weight="bold">热核密度与违约墙</text>
+<text x="58" y="276" font-size="9.5" fill="#6E7B8B">热核扩散：密度随时间变宽；障碍看路径</text>
+<path d="M 90 360 L 470 360" fill="none" stroke="#6E7B8B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ag20)"/>
+<text x="452" y="376" font-size="8.6" fill="#6E7B8B">终值</text>
+<path d="M 118 359.3 L 120.6 359.1 L 123.1 358.9 L 125.7 358.6 L 128.2 358.3 L 130.8 357.9 L 133.3 357.4 L 135.8 356.9 L 138.4 356.3 L 140.9 355.6 L 143.5 354.7 L 146.1 353.8 L 148.6 352.7 L 151.2 351.5 L 153.7 350.1 L 156.2 348.6 L 158.8 346.9 L 161.3 345.1 L 163.9 343.1 L 166.4 340.9 L 169 338.6 L 171.6 336.1 L 174.1 333.5 L 176.7 330.7 L 179.2 327.9 L 181.8 324.9 L 184.3 322 L 186.8 319 L 189.4 316 L 191.9 313 L 194.5 310.2 L 197.1 307.4 L 199.6 304.9 L 202.2 302.5 L 204.7 300.4 L 207.2 298.5 L 209.8 296.9 L 212.3 295.6 L 214.9 294.7 L 217.4 294.2 L 220 294 L 222.6 294.2 L 225.1 294.7 L 227.7 295.6 L 230.2 296.9 L 232.8 298.5 L 235.3 300.4 L 237.8 302.5 L 240.4 304.9 L 242.9 307.4 L 245.5 310.2 L 248.1 313 L 250.6 316 L 253.2 319 L 255.7 322 L 258.2 324.9 L 260.8 327.9 L 263.4 330.7 L 265.9 333.5 L 268.4 336.1 L 271 338.6 L 273.6 340.9 L 276.1 343.1 L 278.6 345.1 L 281.2 346.9 L 283.8 348.6 L 286.3 350.1 L 288.9 351.5 L 291.4 352.7 L 293.9 353.8 L 296.5 354.7 L 299.1 355.6 L 301.6 356.3 L 304.1 356.9 L 306.7 357.4 L 309.2 357.9 L 311.8 358.3 L 314.4 358.6 L 316.9 358.9 L 319.4 359.1 L 322 359.3" fill="none" stroke="#1B3A5C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 64 359.3 L 68.7 359.1 L 73.3 358.9 L 78 358.6 L 82.6 358.3 L 87.2 357.9 L 91.9 357.4 L 96.5 356.9 L 101.2 356.3 L 105.8 355.6 L 110.5 354.7 L 115.2 353.8 L 119.8 352.7 L 124.5 351.5 L 129.1 350.1 L 133.8 348.6 L 138.4 346.9 L 143.1 345.1 L 147.7 343.1 L 152.4 340.9 L 157 338.6 L 161.6 336.1 L 166.3 333.5 L 170.9 330.7 L 175.6 327.9 L 180.2 324.9 L 184.9 322 L 189.6 319 L 194.2 316 L 198.8 313 L 203.5 310.2 L 208.2 307.4 L 212.8 304.9 L 217.4 302.5 L 222.1 300.4 L 226.8 298.5 L 231.4 296.9 L 236 295.6 L 240.7 294.7 L 245.3 294.2 L 250 294 L 254.7 294.2 L 259.3 294.7 L 263.9 295.6 L 268.6 296.9 L 273.2 298.5 L 277.9 300.4 L 282.6 302.5 L 287.2 304.9 L 291.8 307.4 L 296.5 310.2 L 301.2 313 L 305.8 316 L 310.4 319 L 315.1 322 L 319.8 324.9 L 324.4 327.9 L 329.1 330.7 L 333.7 333.5 L 338.4 336.1 L 343 338.6 L 347.6 340.9 L 352.3 343.1 L 356.9 345.1 L 361.6 346.9 L 366.2 348.6 L 370.9 350.1 L 375.6 351.5 L 380.2 352.7 L 384.9 353.8 L 389.5 354.7 L 394.1 355.6 L 398.8 356.3 L 403.4 356.9 L 408.1 357.4 L 412.8 357.9 L 417.4 358.3 L 422.1 358.6 L 426.7 358.9 L 431.4 359.1 L 436 359.3" fill="none" stroke="#6E7B8B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"/>
+<text x="118" y="274" font-size="8.4" fill="#1B3A5C">T1 密度（窄）</text>
+<line x1="172" y1="277" x2="212" y2="289" stroke="#1B3A5C" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="2 2"/>
+<text x="386" y="274" font-size="8.4" fill="#6E7B8B">T2 密度（宽）</text>
+<line x1="384" y1="277" x2="315" y2="288" stroke="#6E7B8B" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="2 2"/>
+<line x1="330" y1="272" x2="330" y2="360" stroke="#E07B39" stroke-width="1.8" stroke-linecap="round"/>
+<text x="334" y="286" font-size="9" fill="#E07B39">违约墙 K</text>
+<rect x="330" y="294" width="140" height="66" fill="#E6EFF7" rx="4" opacity="0.5"/>
+<text x="338" y="350" font-size="8.8" fill="#6E7B8B">触碰概率</text>
+<text x="520" y="300" font-size="9.2" fill="#1B3A5C" font-weight="bold">蒙特卡洛：报标准误</text>
+<text x="520" y="318" font-size="8.8" fill="#6E7B8B">对偶 / 布朗桥降方差</text>
+<text x="520" y="336" font-size="8.8" fill="#6E7B8B">Feynman–Kac：PDE ↔ 期望</text>
+</svg>
